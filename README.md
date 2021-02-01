@@ -1,4 +1,4 @@
-# TickTacToeStrategy-GeneticAlgo
+# TickTacToeStrategy-GeneticAlgo by Ahmad Salahuddin
 
 
 ## Code Description
