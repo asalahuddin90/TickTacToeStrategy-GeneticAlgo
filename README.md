@@ -1,5 +1,7 @@
-# TickTacToeStrategy-GeneticAlgo by Ahmad Salahuddin
+# TickTacToe Strategy evolution through Genetic Algorithms by Ahmad Salahuddin
 
+This project was a fun project I did independently to see how genetic algorithms can be used to find optimal tic-tac-toe strategies. This is not a brute force approach so the best possible strategy is not guaranteed. Infact, a good strategy is heavily dependent on the "ancestor" strategies.
+In this program I have manually inserted about 40 different strategies for playing a tic-tac-toe game. The program then takes those strategies and "marries" strategies randomly with other strategies. Meaning, each strategy has multiple moves and so the program takes moves from strategies and then joins moves from antoher strategy to form a "child" strategy and this is how the next generation is formed. 
 
 ## Code Description
 The r script generates the graph for the results of the java code.
@@ -10,15 +12,15 @@ Please use RStudio to run the R script to generate the graph.
 # Details of the project
 
 ## Classes
-Board 				Represents the board of a TTT game
-Game				Represents a single game b/w two players
-Evolution			Responsible for all evolution related methods
-FileManager		Used to write the score of best strategy to a file
-Fitness				Evaluates fitness of strategies
-Move				Represents a single move by a player
-Strategy				Represents the order of moves of a player
-StrategyPool		Contains many strategies in generations
-Main				Starts the program
+- Board 				Represents the board of a TTT game
+- Game				Represents a single game b/w two players
+- Evolution			Responsible for all evolution related methods
+- FileManager		Used to write the score of best strategy to a file
+- Fitness				Evaluates fitness of strategies
+- Move				Represents a single move by a player
+- Strategy				Represents the order of moves of a player
+- StrategyPool		Contains many strategies in generations
+- Main				Starts the program
 
 ## Design
 ![alt text](https://github.com/asalahuddin90/TickTacToeStrategy-GeneticAlgo/blob/main/Architecture.jpg?raw=true)
